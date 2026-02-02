@@ -1,0 +1,162 @@
+[
+    {
+        "title": "MCP Server Configuration",
+        "total": 20,
+        "trait": "Technical Comprehension",
+        "points": [
+            {
+                "point": 20,
+                "title": "High",
+                "description": "Tenx MCP server successfully connected and actively logging interactions. IDE correctly configured with MCP connection verified. Evidence of successful tool calls in MCP logs throughout the assessment."
+            },
+            {
+                "point": 12,
+                "title": "Average",
+                "description": "MCP server partially configured. Some connection attempts visible but inconsistent logging or connection drops. Documentation shows understanding of setup process despite issues."
+            },
+            {
+                "point": 5,
+                "title": "Low",
+                "description": "Attempted MCP setup but failed to establish connection. Documentation shows troubleshooting attempts with clear description of what was tried."
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No evidence of MCP setup attempt. No MCP logs found for the candidate. No documentation of setup process."
+            }
+        ],
+        "description": "MCP Configuration measures Technical Comprehension through:\n1. Connection Success: Tenx MCP server actively logging IDE interactions\n2. Setup Process: Followed documentation correctly for chosen IDE (VS Code, Cursor, or Claude Code)\n3. Troubleshooting Documentation: If connection failed, documented what was tried and why it didn't work\n4. Persistence: Evidence of multiple attempts if initial setup failed"
+    },
+    {
+        "title": "Rules File Creation & Quality",
+        "total": 25,
+        "trait": "Technical Comprehension + Curiosity",
+        "points": [
+            {
+                "point": 25,
+                "title": "High",
+                "description": "Comprehensive, well-structured rules file demonstrating deep research into AI agent behavior patterns. Rules are specific, actionable, and show evidence of testing different configurations. Clear influence from Boris Cherny's patterns and community best practices, adapted to personal workflow."
+            },
+            {
+                "point": 18,
+                "title": "Above Average",
+                "description": "Solid rules file with good structure and several customized rules. Shows some research beyond the reference material. Rules demonstrate understanding of how agents behave."
+            },
+            {
+                "point": 10,
+                "title": "Average",
+                "description": "Basic rules file created with some customization. Limited evidence of research beyond provided reference. Rules are generic or copied without adaptation."
+            },
+            {
+                "point": 5,
+                "title": "Below Average",
+                "description": "Minimal rules file with only a few basic entries. No evidence of research or testing. Rules don't demonstrate understanding of agent behavior."
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No rules file present, or only default/template rules with no modifications. No file in the correct location for chosen IDE."
+            }
+        ],
+        "description": "Rules File quality is evaluated based on:\n1. File Location: Rules file exists in correct location (.github/copilot-instructions.md, .cursor/rules/agent.mdc, or CLAUDE.md)\n2. Research Depth: Evidence of studying Boris Cherny's workflow and community best practices\n3. Rule Specificity: Rules are specific, actionable, and tailored to guide AI agent behavior effectively\n4. Personalization: Rules adapted to personal workflow, not just copied templates\n5. Testing Evidence: Documentation of testing different rule configurations and observing behavior changes"
+    },
+    {
+        "title": "Research & Exploration",
+        "total": 20,
+        "trait": "Curiosity",
+        "points": [
+            {
+                "point": 20,
+                "title": "High",
+                "description": "Extensive research across multiple sources beyond the provided reference. Explored different IDEs/LLM models to compare behavior. Research notes document findings from community discussions, GitHub repos, and expert workflows. Evidence of genuine curiosity about AI agent orchestration."
+            },
+            {
+                "point": 14,
+                "title": "Above Average",
+                "description": "Good research effort with multiple sources consulted. Explored the Boris Cherny reference thread thoroughly. Some additional sources or experiments documented."
+            },
+            {
+                "point": 8,
+                "title": "Average",
+                "description": "Limited research beyond the provided reference. Some evidence of exploring the Boris Cherny thread but shallow engagement with the material."
+            },
+            {
+                "point": 3,
+                "title": "Below Average",
+                "description": "Minimal research effort. Only superficial engagement with reference material. No additional sources explored."
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No evidence of research. No documentation of exploring reference material or any external sources."
+            }
+        ],
+        "description": "Research and exploration measures Curiosity through:\n1. Source Diversity: Multiple sources consulted beyond the Boris Cherny reference\n2. Depth of Engagement: Deep reading vs. surface skimming of reference material\n3. Experimental Mindset: Evidence of testing different configurations to see what happens\n4. Tool Exploration: Tried different IDEs, extensions, or MCP servers\n5. Community Engagement: Found and studied community discussions, GitHub repos, or expert workflows"
+    },
+    {
+        "title": "Documentation Quality",
+        "total": 20,
+        "trait": "Technical Comprehension + Motivation",
+        "points": [
+            {
+                "point": 20,
+                "title": "High",
+                "description": "Comprehensive documentation covering all four required sections (What You Did, What Worked, What Didn't Work, Insights Gained) with detailed examples, clear explanations, and thoughtful insights. Well-organized, professionally written, easy to follow."
+            },
+            {
+                "point": 14,
+                "title": "Above Average",
+                "description": "Good documentation covering all required sections with reasonable detail. Some insights and reflection present. Generally clear and organized."
+            },
+            {
+                "point": 8,
+                "title": "Average",
+                "description": "Partial documentation missing sections or lacking depth. Limited detail or reflection. Minimal organization."
+            },
+            {
+                "point": 4,
+                "title": "Below Average",
+                "description": "Very sparse documentation. Multiple sections missing. No meaningful insights or reflection."
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No documentation present or documentation does not address the required sections."
+            }
+        ],
+        "description": "Documentation is evaluated based on the required sections:\n1. What You Did: Clear description of changes made to the rules file with specific examples\n2. What Worked: Documentation of successful configurations and approaches with evidence of effectiveness\n3. What Didn't Work: Honest reflection on challenges faced and troubleshooting steps taken\n4. Insights Gained: Thoughtful analysis of how rules change AI agent behavior to align with user intent, thought patterns, and expectations\n5. Clarity & Organization: Documentation is well-structured, easy to follow, and professionally written"
+    },
+    {
+        "title": "Effort & Engagement Artifacts",
+        "total": 15,
+        "trait": "Motivation/Hard-Work",
+        "points": [
+            {
+                "point": 15,
+                "title": "High",
+                "description": "Multiple additional artifacts demonstrating extensive engagement: iteration history of rules file, experimentation logs, comparative analysis across tools, curated resource lists, time-stamped commit history showing continuous work throughout the time window."
+            },
+            {
+                "point": 10,
+                "title": "Above Average",
+                "description": "Some additional artifacts beyond minimum requirements. Evidence of sustained effort and genuine engagement with the challenge."
+            },
+            {
+                "point": 5,
+                "title": "Average",
+                "description": "Minimal additional artifacts. Completed requirements but limited evidence of extra effort or sustained engagement."
+            },
+            {
+                "point": 2,
+                "title": "Below Average",
+                "description": "Only bare minimum submission. No evidence of extra effort. Work appears rushed or last-minute."
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "Incomplete submission. Missing required artifacts. No evidence of meaningful engagement."
+            }
+        ],
+        "description": "Effort and engagement is evaluated based on:\n1. Commit History: Time-stamped commits showing work distribution throughout the time window (not all at last minute)\n2. Iteration Evidence: Multiple versions of rules file showing experimentation and refinement\n3. Additional Artifacts: Research notes, comparison tables, experimentation logs, curated resource lists\n4. Responsiveness: Timely communication and engagement during the assessment period\n5. Completeness: All required deliverables present and properly organized in GitHub repository"
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "title": "Environment Setup & Configuration",
+        "total": 15,
+        "points": [
+            {
+                "point": 15,
+                "title": "High",
+                "description": "Successfully configured multiple API providers (Gemini + AIMLAPI), verified installation with all commands working, documented setup process clearly with any troubleshooting steps"
+            },
+            {
+                "point": 10,
+                "title": "Above Average",
+                "description": "Successfully configured at least one API provider, installation working, basic documentation of setup process"
+            },
+            {
+                "point": 5,
+                "title": "Average",
+                "description": "Partial configuration with some issues remaining, limited documentation of setup challenges"
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "Failed to configure environment, no evidence of attempting API setup, or missing .env configuration"
+            }
+        ],
+        "description": "Environment setup is evaluated based on:\n1. API Configuration: Successfully obtained and configured API keys for at least one provider (Gemini or AIMLAPI)\n2. Installation Verification: Package installs correctly and CLI commands work (list-providers, list-presets)\n3. Documentation: Clear documentation of setup steps taken and any issues encountered\n4. Security: .env file not committed to repository, credentials properly secured"
+    },
+    {
+        "title": "Codebase Exploration & Documentation",
+        "total": 25,
+        "points": [
+            {
+                "point": 25,
+                "title": "High",
+                "description": "Comprehensive exploration artifacts (ARCHITECTURE.md, PROVIDERS.md, PRESETS.md) demonstrating deep understanding of package structure, provider differences, pipeline orchestration, and preset system. Includes diagrams or code references."
+            },
+            {
+                "point": 18,
+                "title": "Above Average",
+                "description": "Good exploration documentation covering most areas with reasonable depth, shows understanding of key concepts but may miss some nuances"
+            },
+            {
+                "point": 10,
+                "title": "Average",
+                "description": "Basic exploration covering required areas but lacking depth, superficial understanding of codebase structure"
+            },
+            {
+                "point": 5,
+                "title": "Below Average",
+                "description": "Minimal exploration, missing multiple required artifacts, shows only surface-level interaction with codebase"
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No exploration artifacts created, no evidence of examining codebase structure or understanding the system"
+            }
+        ],
+        "description": "Codebase exploration is evaluated based on:\n1. ARCHITECTURE.md: Understanding of package structure (core, providers, pipelines, integrations, presets, utils)\n2. PROVIDERS.md: Accurate comparison of music providers (Lyria vs MiniMax), video providers (Veo), and their capabilities\n3. PRESETS.md: Complete catalog of available presets with their parameters (BPM, mood, aspect ratio)\n4. Depth of Understanding: Evidence of reading source code, understanding provider protocols, and pipeline orchestration\n5. Quality: Clear organization, accurate information, and useful insights"
+    },
+    {
+        "title": "Content Generation",
+        "total": 25,
+        "points": [
+            {
+                "point": 25,
+                "title": "High",
+                "description": "Successfully generated multiple content types (instrumental music, music with vocals, video), experimented with different presets and custom prompts, created combined music video, all generation commands documented"
+            },
+            {
+                "point": 18,
+                "title": "Above Average",
+                "description": "Generated required content types (2+ audio, 1+ video), showed some experimentation with different styles, good documentation of prompts used"
+            },
+            {
+                "point": 12,
+                "title": "Average",
+                "description": "Generated minimum required content (1 audio, 1 video), limited experimentation, basic prompt usage"
+            },
+            {
+                "point": 5,
+                "title": "Below Average",
+                "description": "Only generated one type of content, minimal variety, no custom prompts or experimentation"
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "Failed to generate any content, no evidence of running generation commands successfully"
+            }
+        ],
+        "description": "Content generation is evaluated based on:\n1. Quantity: At least 2 audio files and 1 video file generated\n2. Variety: Used different providers and/or presets to show exploration\n3. Creativity: Custom prompts crafted beyond just using defaults\n4. Quality: Generated content is playable/viewable and reasonable quality\n5. Documentation: All commands and prompts used are documented with rationale\n6. Bonus: Created combined music video using FFmpeg or similar tool"
+    },
+    {
+        "title": "Troubleshooting & Persistence",
+        "total": 20,
+        "points": [
+            {
+                "point": 20,
+                "title": "High",
+                "description": "Detailed documentation of challenges encountered (API errors, timeouts, configuration issues), clear explanation of troubleshooting steps taken, successful workarounds found and documented, shows resilience and problem-solving"
+            },
+            {
+                "point": 14,
+                "title": "Above Average",
+                "description": "Good documentation of challenges with some troubleshooting steps, found solutions to most problems encountered"
+            },
+            {
+                "point": 8,
+                "title": "Average",
+                "description": "Mentioned some challenges but limited detail on troubleshooting approach, may have given up on some issues"
+            },
+            {
+                "point": 4,
+                "title": "Below Average",
+                "description": "Minimal acknowledgment of challenges, no documented troubleshooting, appeared to stop at first obstacle"
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "No evidence of encountering or working through any challenges, or complete absence of this section in submission"
+            }
+        ],
+        "description": "Troubleshooting and persistence is evaluated based on:\n1. Challenge Documentation: Clear description of problems encountered (API errors, rate limits, configuration issues)\n2. Troubleshooting Process: Step-by-step explanation of how problems were investigated\n3. Solutions Found: Successful workarounds or fixes discovered and implemented\n4. Resilience: Evidence of continued effort despite failures (multiple attempts, alternative approaches)\n5. Learning: Insights gained from the troubleshooting process"
+    },
+    {
+        "title": "Curiosity & Extra Effort",
+        "total": 15,
+        "points": [
+            {
+                "point": 15,
+                "title": "High",
+                "description": "Extensive exploration beyond requirements: tested multiple providers, compared output quality, explored pipeline orchestration, examined source code, tried examples directory, added custom presets, or contributed improvements"
+            },
+            {
+                "point": 10,
+                "title": "Above Average",
+                "description": "Notable exploration beyond minimum: tested extra presets, compared providers, or explored advanced features like pipelines"
+            },
+            {
+                "point": 5,
+                "title": "Average",
+                "description": "Some exploration beyond minimum requirements but limited in scope or depth"
+            },
+            {
+                "point": 2,
+                "title": "Below Average",
+                "description": "Completed only required tasks with no evidence of additional exploration or curiosity"
+            },
+            {
+                "point": 0,
+                "title": "Non-existent",
+                "description": "Did not complete required tasks, no evidence of curiosity or extra effort"
+            }
+        ],
+        "description": "Curiosity and extra effort are evaluated based on:\n1. Provider Exploration: Tested multiple providers to compare capabilities and output quality\n2. Feature Discovery: Explored advanced features (pipelines, integrations, reference audio)\n3. Code Investigation: Evidence of reading source code to understand implementation\n4. Examples Usage: Ran and modified example scripts from examples/ directory\n5. Creative Extensions: Added custom presets, tried unique prompts, or experimented with combinations\n6. Insights & Improvements: Thoughtful suggestions for codebase improvements or observations about AI content generation\n7. Presentation Quality: Well-organized submission with clear narrative and professional presentation"
+    }
+]
